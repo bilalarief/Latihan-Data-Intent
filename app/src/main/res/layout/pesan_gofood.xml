@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/deliv"/>
+
+    <TextView
+        android:id="@+id/nama_pelanggan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nama"
+        android:layout_marginTop="460dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/alamat_pelanggan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alamat"
+        android:layout_marginTop="500dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/pesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pesanan"
+        android:layout_marginTop="540dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="Cancel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="590dp"/>
+
+</RelativeLayout>
